@@ -1,0 +1,18 @@
+32e4775 (HEAD -> feature-notas) Modifica notas en feature-notas
+cc94c3e Añade notas iniciales de la funcionalidad
+4d300fe (main) Crea notas en main
+8ee3848 Actualiza changelog a v1.1
+c20b8c2 Crea changelog con versión inicial
+4b6faa4 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commit
+
+
+eliminar los marcadores <<<<<<<, =======, >>>>>>>.
+
+Marca el conflicto como resuelto:
+git add notas.md
+
+Si en algún momento te equivocas y quieres deshacer el rebase completo:
+
+git rebase --abort
+

@@ -1,0 +1,7 @@
+8ee3848 (HEAD -> main) Actualiza changelog a v1.1
+b07db1e (feature-notas) Añade notas iniciales de la funcionalidad
+c20b8c2 Crea changelog con versión inicial
+4b6faa4 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commit
+
+La rama main tiene un cambio en el changelog y la rama feature-notas tiene un cambio con las notas. Cada una tiene commits distintos, por eso están separadas.

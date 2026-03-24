@@ -1,0 +1,31 @@
+artur@artur-VirtualBox:~/Documentos/actividad-6-4-rebase$ git status
+rebase interactivo en progreso; sobre 4d300fe
+El último comando realizado (1 comando realizado):
+   pick 17d360f Añade notas iniciales de la funcionalidad
+Siguiente comando a realizar (1 comando restante):
+   pick b915a94 Modifica notas en feature-notas
+  (usa "git rebase --edit-todo" para ver y editar)
+Estás aplicando un rebase de la rama 'feature-notas' sobre '4d300fe.
+  (corrige los conflictos y ejecuta "git rebase --continue")
+  (usa "git rebase --skip" para omitir este parche)
+  (usa "git rebase --abort" para volver a tu rama original)
+
+Rutas no fusionadas:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+  (usa "git add <archivo>..." para marcar una resolución)
+	agregados por ambos:    notas.md
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	cp1-estado-inicial-rebase.txt
+	cp2-divergencia.txt
+	cp3-despues-rebase.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+
+<<<<<<< HEAD
+- Nota 1: versión desde main.
+=======
+- Nota 1: pendiente de completar.
+>>>>>>> 17d360f (Añade notas iniciales de la funcionalidad)

@@ -1,0 +1,7 @@
+17d360f (HEAD -> feature-notas) Añade notas iniciales de la funcionalidad
+8ee3848 (main) Actualiza changelog a v1.1
+c20b8c2 Crea changelog con versión inicial
+4b6faa4 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commit
+
+Después del rebase, el commit de feature-notas se ha vuelto a aplicar encima de main. Ahora el historial es lineal y parece que primero se hicieron los cambios de main y luego los de la rama. Además, el commit tiene otro identificador porque se ha recreado.
